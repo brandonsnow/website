@@ -7,12 +7,17 @@
 }
 
 .background-picture {
-  background-image: url(images/treeback.png)
+  background-image: url(images/treeicon.svg);
+  margin: 15px auto 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 .text-type {
   font-family: Fondamento, avant garde;
   text-align: center;
-  color: Black;
+  font-size: 38px;
+  /* color: #00ff99; */
 }
 
 /* .box-typeone {
@@ -33,16 +38,16 @@
 .body-text {
   text-align: left;
   font-family: Arial;
-  font-size: 18px;
+  font-size: 28px;
   padding-left: 200px;
   padding-right: 200px;
-}
-
-.backgroundcolor {
-  background-color: #4286f4;
-  padding: 30px;
+  padding-top: 20px;
+  margin-bottom: 25px;
 }
 
 .footerTextAlign {
   text-align: center;
+  color: #9900ff;
+  background-color: #00ff99;
+  padding: 25px 30px;
 }
