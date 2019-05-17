@@ -6,19 +6,22 @@
   box-sizing: border-box;
 }
 
+.background-picture {
+  background-image: url(images/treeback.png)
+}
 .text-type {
   font-family: Fondamento, avant garde;
   text-align: center;
   color: Black;
 }
 
-.box-typeone {
+/* .box-typeone {
   background-color: #00FF00;
   border-style: solid;
   border-width: 15px;
   border-color: green;
   border-radius: 75%;
-}
+} */
 
 .picture-type {
   border-width: 10px;
