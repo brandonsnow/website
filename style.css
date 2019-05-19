@@ -1,4 +1,4 @@
-
+/* This is commented out */
 * {
   font-size: 100%;
   margin:0;
@@ -6,88 +6,48 @@
   box-sizing: border-box;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
-.container-two {
-  display: flex;
-  margin-left: 16%;
-  margin-right: 16%;
-}
-
-nav div {
-  display: flex;
-  justify-content: center;
-  font-size: 22px;
-}
-
-a {
-  text-decoration: none;
-  padding: 1px 1px;
-  color: orange;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 .background-picture {
   background-image: url(images/treeicon.svg);
+  margin: 15px auto 0 auto;
   background-repeat: no-repeat;
-  background-size: relative;
-  background-position: center;
-}
-
-.text-type {
-  font-family: 'Fondamento', avant garde;
-  text-align: center;
-  font-size: 25px;
-}
-
-.picture-type {
-  display: box;
-  border-width: 10px;
-  border-radius: 65%;
-  border-color: #272410;
-  border-style: solid;
-  margin-left: 42%;
-  margin-right: 42%;
-  width: 16%;
+  background-size: cover;
   position: relative;
 }
-
-.element {
-  text-shadow:
-    -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff;
+.text-type {
+  font-family: Fondamento, avant garde;
+  text-align: center;
+  font-size: 38px;
+  /* color: #00ff99; */
 }
 
-h3 {
-  text-align: center;
+/* .box-typeone {
+  background-color: #00FF00;
+  border-style: solid;
+  border-width: 15px;
+  border-color: green;
+  border-radius: 75%;
+} */
+
+.picture-type {
+  border-width: 10px;
+  border-radius: 65%;
+  border-color: #78300F;
+  border-style: solid;
 }
 
 .body-text {
   text-align: left;
-  font-family: 'Fondamento', Arial;
-  font-size: 120%;
-  font-weight: bold;
-  font-kerning: normal;
+  font-family: Arial;
+  font-size: 28px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 20px;
+  margin-bottom: 25px;
 }
 
 .footerTextAlign {
   text-align: center;
-  color: green;
-  font-size: 114%;
-  background-color: #99ff00;
-  padding: 15px 25px;
-}
-
-blockquote {
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-bottom: 1%;
+  color: #9900ff;
+  background-color: #00ff99;
+  padding: 25px 30px;
 }
