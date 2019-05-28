@@ -19,8 +19,9 @@
 
 nav div {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   font-size: 22px;
+  margin-right: 20%;
 }
 
 a {
