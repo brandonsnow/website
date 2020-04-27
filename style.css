@@ -48,7 +48,6 @@ a:hover {
 }
 
 .picture-type {
-  display: box;
   border-width: 10px;
   border-radius: 65%;
   border-color: #272410;
